@@ -1,0 +1,46 @@
+/*<img src="https://loremflickr.com/320/240" />*/
+
+.img {
+	background-image: url(https://loremflickr.com/320/240);
+	width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: 100%;
+    background-position: center;
+    margin: 3px;
+}
+
+.container {
+	font-family: sans-serif;
+    font-size: 20px;
+    width: 430px;
+    height: 518px;
+}
+.accounts {
+	border-bottom: dashed #DDD;
+	margin: 10px;
+	padding-bottom: 2px;
+}
+.item {
+	border: 2px solid #DDD;
+	margin: 10px;
+	border-radius: 10px;
+	position: relative;
+    display: flex;
+    padding: 4px 10px;
+}
+.sub {
+	padding: 3px;
+    margin: 0 4px;
+	
+}
+.icon {
+	position: absolute;
+    top: 025%;
+    right: 18px;
+    color: #ff8686;
+}
+.mail {
+	font-size: 15px;
+    color: #aaa;
+}
